@@ -181,19 +181,19 @@ input[type=button]:hover{
     margin-top: 150px;
 }
 .txt-redes{
-    width: 400px;
+    width: 100%;
     height: 180px;
-    float: left;
     padding: 20px;
     font-family: century gothic;
     font-size: 23px;
-    margin-left: 50px;
+    text-align: center;
+    margin-left: -10px;
 }
 .caixa-redes2{
-    width: 100px;
-    height: 200px;
-    float: left;
-    margin-left:100px;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-left: 200px;
 }
 
 }
