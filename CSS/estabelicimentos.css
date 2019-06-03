@@ -51,3 +51,14 @@ h5{
     font-weight: bold;
     padding: 20px;
 }
+@media screen and (min-device-width:1px) and (max-device-width:400px){
+    .conteudo-corpo{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        min-height: 800px;
+        margin: auto;
+        background-color: white;
+        padding-bottom: 150px;
+    }
+}

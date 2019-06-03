@@ -50,3 +50,42 @@
     height: 300px;
     float: left;
 }
+
+@media screen and (min-device-width:1px) and (max-device-width:400px){
+    .conteudo-corpo{
+        width: 100%;
+        height: auto;
+        min-height: 800px;
+        overflow: hidden;
+        margin: auto;
+        background-color: white;
+        padding-bottom: 150px;
+    }
+    .caixa-row{
+        width: 100%;
+        height: auto;
+        min-height: 400px;
+        overflow: hidden;
+        padding: 50px;
+        text-align: center;
+    }
+    .txt-noticias{
+        max-width: 50%;
+        height: auto;
+        min-height: 400px;
+        margin-left: 20px;
+        font-family: century gothic;
+        font-size: 25px;
+        text-align: left;
+        float: left;
+    }
+    .txt-noticias p{
+        display: none;
+    }
+    .img-noticia{
+        width: 300px;
+        height: 300px;
+        float: left;
+    }
+
+}

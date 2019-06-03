@@ -70,3 +70,77 @@ h5{
 .img-empresa2{
     flex: 1;
 }
+
+@media screen and (min-device-width:1px) and (max-device-width:400px){
+    
+.conteudo-corpo{
+    width: 100%;
+    height: auto;
+    min-height: 800px;
+    overflow: hidden;
+    margin: auto;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.disable{
+    display: none;
+}
+
+.txt-empresa{
+    flex: 1;
+    font-family: century gothic;
+    font-size: 19px;
+    text-align: justify;
+    padding: 50px;
+}
+.caixa-row{
+    flex: 1;
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    overflow: hidden;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.txt-empresa{
+    flex: 1;
+    font-family: century gothic;
+    font-size: 19px;
+    text-align: justify;
+}
+.txt-empresa2{
+    flex: 1;
+    margin-left: -10px;
+    font-family: century gothic;
+    font-size: 19px;
+    text-align: justify;
+    padding: 50px;
+}
+
+.img-empresa{
+    flex: 1;
+    margin-left: -10px;
+}
+.img-empresa2{
+   display: none;
+}
+.caixa-titulo{
+    flex: 1;
+    width: 100%;
+    height: 280px;
+    font-family: century gothic;
+    font-size: 45px;
+    cursor: pointer;
+    color: dimgrey;
+    text-align: center;
+    padding: 90px;
+}
+
+}

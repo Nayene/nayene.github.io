@@ -196,7 +196,7 @@ H6{
     .conteudo-corpo{
         width: 100%;
         height: auto;
-        min-height: 500px;
+        min-height: 300px;
         overflow: hidden;
         margin: auto;
         background-color: darkgray;
@@ -210,7 +210,7 @@ H6{
         font-weight: bold;
     }
     .caixa-desc{
-        width: 300px;
+         flex: 2;
         height: auto;
         color: whitesmoke;
         text-align: justify;
@@ -236,12 +236,112 @@ H6{
         font-family: century gothic;
         border-radius: 15px;
         color: dimgray;
+        flex-direction: row;
     }
     
     .caixa-passos:hover{
         box-shadow: 0 10px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
         cursor: pointer;
     }
+    .btn{
+        width: 100%;
+        height: 90px;
+        text-align: center;
+    }
+    .caixa-txt-participe{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .cadastro-promo{
+        margin: auto;
+        margin-top: 50px;
+        width: 100%;
+        height: 250px;
+        color: white;
+        border-radius: 15px;
+        background-color:black;
+        
+    }
+    .caixa-descPromo{
+        width: 100%;
+        height: auto;
+        min-height: 700px;
+        overflow: hidden;
+        background-color: #83d1a7;
+        padding-top: 80px;
+    }
+    .caixa-titulo{
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        font-family: century gothic;
+        font-size: 50px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: #474747;
+    }
+    .caixa-titulo2{
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        font-family: century gothic;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .caixa-desc{
+        width: 300px;
+        height: auto;
+        color: whitesmoke;
+        text-align: justify;
+        font-family: century gothic;
+        font-size: 25px;
+        margin-left: 300px;
+        float: left;
+        
+    }
+    h5{
+        text-align: center;
+        padding: 10px;
+        font-size: 25px;
+        color: black;
+    }
+    
+    .caixa-passos{
+        width: 40%;
+        height: auto;
+        background-color: whitesmoke;
+        float: left;
+        padding: 15px;
+        margin-left: 50px;
+        font-family: century gothic;
+        border-radius: 15px;
+        color: dimgray;
+        margin-top: 10px;
+    }
+    
+    .caixa-passos:hover{
+        box-shadow: 0 10px 8px 0 rgba(0,0,0, 0.2), 0 6px 20px 0 rgba(0,0,0, 0.19);
+        cursor: pointer;
+    }
+    
+    .img-promo{
+        text-align: center;
+    }
+    .btn{
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        float: left;
+        margin-top: 80px;   
+    }
+    .list_promocoes{
+        width: 100%;
+        float: left;
+        margin-top: 150px;
+    }
+   
+   
 }
 
 

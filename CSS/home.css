@@ -178,6 +178,7 @@
 }
 .post{
      flex: 1;
+     min-height: 200px;
     padding: 50px;
     font-family: century gothic;
     font-size: 20px;
@@ -268,7 +269,7 @@
     flex: 1;
   position: absolute;
   top: 0;
-  left: 550px;
+  left: 1050px;
   height: 25px;
   width: 25px;
   background-color: #eee;
@@ -529,7 +530,7 @@ input[type=search] {
     
 }
 .hoverdesc{
-    width: 390px;
+    width: 435px;
     height: 0px;
     overflow: hidden;
     position: absolute;
@@ -724,7 +725,6 @@ h6{
     }
     .produtos{
         flex: 1;
-          margin-left: 70px;
           font-family: century gothic;
           float: left;
           display: flex;
@@ -808,7 +808,7 @@ h6{
          flex: 1;
         padding: 50px;
         font-family: century gothic;
-        font-size: 12px;
+        font-size: 23px;
         background-color: #ccc;
         float: left;
         margin-top: 10px;
@@ -853,7 +853,7 @@ h6{
         flex: 1;
         text-align: center;
         font-family: century gothic;
-        font-size: 30px;
+        font-size: 25px;
         padding-top: 10px;
     }
     
@@ -896,7 +896,7 @@ h6{
         flex: 1;
       position: absolute;
       top: 0;
-      left: 580px;
+      left: 800px;
       height: 25px;
       width: 25px;
       background-color: #eee;
@@ -1027,7 +1027,7 @@ h6{
     
     .evento h2,h3{
         flex: 1;
-        font-size: 35px;
+        font-size: 30px;
     }
     
     .caixa-bebida{
@@ -1158,7 +1158,7 @@ h6{
         
     }
     .hoverdesc{
-        width: 89%;
+        width: 94%;
         height: 0px;
         overflow: hidden;
         position: absolute;

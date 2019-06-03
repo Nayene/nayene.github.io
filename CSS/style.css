@@ -104,6 +104,7 @@ text-decoration:none;
     text-align: center;
     color: gray;
     padding-top: 10px;
+    
   
 }
 .sub_item:hover{
@@ -524,6 +525,7 @@ h3{
         text-align: center;
         color: gray;
         padding-top: 10px;
+        font-size: 20px;
       
     }
     .sub_item:hover{

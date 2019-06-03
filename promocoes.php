@@ -213,9 +213,9 @@
                     <div class="caixa-titulo">
                         Já ganhou uma Viagem hoje ?
                     </div>
-                   <div class="clickPromo" style="min-width:500px; height: 200px; float: left;"></div>
+                   <div class="clickPromo" style="flex:1; min-width:100px; height: 200px; float: left;"></div>
                     
-                    <div class="list_promocoes"></div>
+                    <div class="list_promocoes"  style="flex:1;"></div>
 
                     <div class="btn">
                         <a href="#caixa-participe">
@@ -259,7 +259,7 @@
                        <h2>Sobre nós</h2>
                     </div>
                     <div class="caixa-txt-sobre">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                        A Pop´s soda Drink foi fundada em 2016 em Taubaté, acreditamos que tudo na vida tem um propósito, e o da POP´s é passar o amor em forma de bebidas para todos os nossos clientes, com isso fazendo a nossa missão da vida. 
                     </div>
                     
                    

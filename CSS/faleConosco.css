@@ -166,3 +166,21 @@ input[type=email],textarea{
     margin-top: 15px;
     
 }
+@media screen and (min-device-width:1px) and (max-device-width:400px){
+    .conteudo-corpo{
+        width: 100%;
+        height: auto;
+        min-height: 800px;
+        overflow: hidden;
+        margin: auto;
+        background-color: white;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .caixa-faleconosco{
+        width: 1200px;
+        height: 900px;
+        margin: auto;
+        margin-top: 25px;
+    }
+}

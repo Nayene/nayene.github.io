@@ -115,4 +115,26 @@ input[type=button]:hover{
     padding-top: 40px;
 }
 
+@media screen and (min-device-width:1px) and (max-device-width:400px){
+    .conteudo-corpo{
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+        overflow: hidden;
+        margin: auto;
+        background-color: dimgrey;
+    }
+    .caixa-lojas{
+        width: 100%;
+        height: auto;
+        min-height: 200px;
+        overflow: hidden;
+        padding-left: 100px;
+    }
 
+    .caixa-maps{
+        background-color: lightgray;
+        padding: 10px;
+        margin-top: 23px;
+    }
+}

@@ -72,6 +72,33 @@
     font-size: 20px;
     padding: 5px;
 }
+@media screen and (min-device-width:1px) and (max-device-width:400px){
+    .conteudo-corpo{
+        width: 100%;
+        height: auto;
+        min-height: 800px;
+        overflow: hidden;
+        margin: auto;
+        background-color: white;
+        padding-bottom: 150px;
+    }
+    .caixa-eventos{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        margin-top: 90px;
+        margin-bottom: 30px;
+        
+    }
+    
+    .caixa-eventos2{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        margin-top: 90px;
+        
+    }
+}
 
 
 
